@@ -1,0 +1,31 @@
+{
+  "name": "@webreflection/is-proxy",
+  "version": "0.0.0",
+  "description": "A Proxy.isProxy(object) utility",
+  "main": "index.js",
+  "module": "index.js",
+  "exports": {
+    ".": {
+      "import": "./index.js"
+    },
+    "./pony": {
+      "import": "./pony.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "keywords": [
+    "Proxy",
+    "isProxy"
+  ],
+  "author": "Andrea Giammarchi",
+  "license": "MIT",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WebReflection/is-proxy.git"
+  },
+  "bugs": {
+    "url": "https://github.com/WebReflection/is-proxy/issues"
+  },
+  "homepage": "https://github.com/WebReflection/is-proxy#readme"
+}
